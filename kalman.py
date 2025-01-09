@@ -15,9 +15,9 @@ class KalmanFilter:
         """
         self.A = A    # State transition matrix
         self.H = H    # Observation matrix
-        self.Q = Q    # Process noise covariance 
+        self.Q = Q    # Process noise covariance
         self.R = R    # Measurement noise covariance
-        self.B = B    # Control matrix
+        self.B = B    # Control matrix 
         self.u = u    # Control vector
         self.x = None # Initial state estimate
         self.P = None # Initial error covariance
